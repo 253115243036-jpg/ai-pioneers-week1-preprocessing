@@ -1,0 +1,23 @@
+
+WEEK 1 PREPROCESSING RESULTS
+============================
+Original dataset shape: 891 rows x 12 columns
+Duplicate rows found in original data: 0
+Duplicate rows removed: 0
+Missing cells before preprocessing: 866
+Missing cells after cleaning: 0
+Age median used for imputation: 28.000
+Most frequent Embarked category used: S
+Columns removed from cleaned dataset: PassengerId, Name, Ticket, Cabin
+Cleaned dataset shape: 891 rows x 8 columns
+Encoded feature matrix shape: 891 rows x 10 columns
+Scaled feature matrix shape: 891 rows x 10 columns
+Passengers who survived: 342
+Passengers who did not survive: 549
+Overall survival rate in this dataset: 38.38%
+
+Interpretation notes:
+- Survival counts show the target class distribution in this sample.
+- Age and Fare were standardized for demonstration.
+- One-hot encoding was used for Sex and Embarked.
+- The survival rate describes this dataset; it is not a causal conclusion.
